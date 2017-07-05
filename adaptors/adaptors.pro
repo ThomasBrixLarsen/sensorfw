@@ -11,6 +11,8 @@ contains(CONFIG,hybris) {
     SUBDIRS += hybrisproximityadaptor
     SUBDIRS += hybrisorientationadaptor
     SUBDIRS += hybrisstepcounteradaptor
+    SUBDIRS += proximityadaptor-pa224
+    SUBDIRS += alsadaptor-bh1745
 
     } else {
 
@@ -56,6 +58,8 @@ config_hybris {
     SUBDIRS += hybrisproximityadaptor
     SUBDIRS += hybrisorientationadaptor
     SUBDIRS += hybrisstepcounteradaptor
+    SUBDIRS += proximityadaptor-pa224
+    SUBDIRS += alsadaptor-bh1745
  }
 }
 
